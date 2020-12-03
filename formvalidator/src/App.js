@@ -1,13 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Register from "./pages/Register";
+  
+import Form from "./Form";
+import Header from "./Header";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Register/>
+    <div className="App">
+      <header className="App-header">
+        <Header />
+        <Form />
+      </header>
     </div>
   );
-}
+};
 
 export default App;
